@@ -34,6 +34,6 @@ class TaskController
     {
         $task = $this->em->find(Task::class, $id);
 
-        return new Response('task:'.$task->title);
+        return new Response('task: '.$task->title);
     }
 }

@@ -1,0 +1,3 @@
+App\Entity\Task:
+  task1:
+    title: "test1"
