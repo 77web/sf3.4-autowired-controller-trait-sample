@@ -1,0 +1,6 @@
+#doctrine.dbal.driver: 'pdo_sqlite'
+#doctrine.dbal.url: 'sqlite://%kernel.project_dir%/var/testdb.sqlite'
+doctrine:
+  dbal:
+    driver: "pdo_sqlite"
+    url: "sqlite:///%kernel.project_dir%/var/testdb.sqlite"
