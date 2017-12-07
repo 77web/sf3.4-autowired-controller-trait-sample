@@ -341,7 +341,13 @@
     "symfony/polyfill-mbstring": {
         "version": "v1.6.0"
     },
+    "symfony/polyfill-php56": {
+        "version": "v1.6.0"
+    },
     "symfony/polyfill-php70": {
+        "version": "v1.6.0"
+    },
+    "symfony/polyfill-util": {
         "version": "v1.6.0"
     },
     "symfony/process": {
@@ -362,8 +368,26 @@
             "ref": "a249484db698d1a847a30291c8f732414ac47e25"
         }
     },
+    "symfony/security": {
+        "version": "v3.4.1"
+    },
+    "symfony/security-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "85834af1496735f28d831489d12ab1921a875e0d"
+        }
+    },
+    "symfony/serializer": {
+        "version": "v3.4.1"
+    },
     "symfony/stopwatch": {
         "version": "v3.4.0"
+    },
+    "symfony/templating": {
+        "version": "v3.4.1"
     },
     "symfony/twig-bridge": {
         "version": "v3.4.0"
