@@ -22,6 +22,6 @@ class TaskControllerTest extends WebTestCase
         $client = static::createClient();
         $client->request('GET', '/task/1');
 
-        $this->assertEquals('task: test1', $client->getResponse()->getContent());
+        $this->assertEquals('task: test1(url: /task/1)', $client->getResponse()->getContent());
     }
 }
